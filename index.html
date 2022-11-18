@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario El Tunco</title>
+    <!--links-->
+    <link rel="stylesheet" href="diseño.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gupter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="video">
+        <video muted autoplay loop>
+            <source src="playa.mp4" 
+            type="video/mp4">
+            
+        </video>
+        <div class="capa"></div>
+        <div class="titulo">
+            <h1>Beach Tour El Tunco, El Salvador</h1>
+            <p style="font-size:25px ;">Thank you for coming to El Tunco Beach, we hope to see you soon!
+            </p>
+        </div>
+       
+            <div class="cuadro">
+            <br><br>
+                    <form class="usuario">
+                  <div class="primera">    
+                    <label for="Introduzca su nombre">Name</label><br>
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Enter your name " required=""><br><br>
+                
+                    <label for="Email">Email</label><br>
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Enter your email" required><br><br>
+               
+                    <label for="Age">Age (optional)</label><br>
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Age"> 
+                
+                    </div>
+             
+                    <br><br>
+                    
+                        <label class="gusto">Wwhat did you like most about El Tunco Beach? </label><br><br>
+                        <select name="desplegable" id="rol" style="padding: 3px; border: 1px solid orange; left: 40px; width: 310px; height: 30px; font-family: 'Gupter', serif;" >
+                            <option disabled selected value>What did you like more?</option>
+                            <option value="Beach">Beach</option>
+                            <option value="Party">Party</option>
+                            <option value="Food">Food</option>
+                            <option value="sunset">The Sunset</option>
+                        </select>
+                        <div style="padding: 3px; " >
+                            <div>
+                            <h2>Would you recommend El Tunco beach to a friend?</h2>
+                            <input type="radio" name="opciones"
+                            value="definitivamente" checked >definitely <br>
+                            <input type="radio" name="opciones"
+                            value="Quizas" checked>Maybe <br>
+                            <input type="radio" name="opciones"
+                            value="seguro" checked>I'm not sure
+                            </div>
+                        </div>
+                        <h2>What would you like to find in the future in El Tunco beach?</h2>
+                            <input type="checkbox" name="instalaciones" id="estructura">Best facilities <br>
+                            <input type="checkbox" name="comida" id="comida">Best meals<br>
+                            <input type="checkbox" name="atencion" id="cliente"> Best customer service
+
+                            <div>
+                                <h2>Leave us your comments</h2>
+                                <textarea name="sugerencias" id="sugerencias" cols="15" rows="10" placeholder="Write your comment" style="border: 1px solid orange; font-family: 'Gupter', serif; font-size: 20px;" ></textarea>
+                            </div>
+                            <br>
+                            <div>
+                                <button style="width:300px; height: 25px; background-color: #ffa31a; font-family: 'Gupter', serif; font-size: 15px;"><strong>Submit</strong></button>
+                            </div>
+
+
+                    </form>
+             </div>
+        <div class="bar">
+            <a href="https://www.instagram.com/perazarbkins/" class="icon icon-instagram" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/daniel-peraza-a118b622a/" class="icon icon-linkedin" target="_blank"></a>
+        </div>
+</body>
+</html>
